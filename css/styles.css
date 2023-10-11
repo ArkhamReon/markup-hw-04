@@ -1,0 +1,239 @@
+:root{
+    --white: #ffffff;
+    --cornflower: #E7E9FC;
+    --IRISH: #4D5AE5;
+    --NAVYBLUE: #2E2F42; 
+    --SLATE: #434455;
+    --CLOUD: #f4f4fd;
+    --OCEAN:  #2B65EC;
+}
+
+.container{
+    width: 1158px;
+    display: flex;
+    justify-content: space-around;
+}
+
+*{
+      /* margin:0;
+      padding:0;
+      box-sizing:border-box; */
+      font-family:  "Roboto", sans-serif;
+} 
+
+.logo{
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 800;
+    margin-right: 76px;
+    line-height: 1.5;
+    letter-spacing: 0.54;
+    text-transform: uppercase;
+    text-decoration: none;
+   
+}
+
+.web{
+    color:var(--IRISH)
+}
+
+.logo-web{
+    color: var(--NAVYBLUE);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.5; 
+    letter-spacing: 0.54px;
+        
+}
+
+.logo-studio{
+    color: var(--CLOUD);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.5px; 
+    letter-spacing: 0.54px;
+}
+
+    /* NAVIGATION SECTION  */
+.link{
+    text-decoration: none;
+}
+
+.nav-link{
+    color: var(--NAVYBLUE);
+}
+
+.nav-link:hover, .nav-link:focus
+{
+    color: var(--IRISH);
+}
+
+.first-child{
+    display: flex;
+}
+
+.container .first-child{
+    align-items: center;
+}
+
+.about-list{
+    gap: 40px;
+}
+
+.link-list{
+    gap: 40px;
+} 
+
+.git-link{
+    color: var(--SLATE)
+}
+
+/* section #1 */
+.discription-list{
+    margin-top: 8%;
+    width: 1128px;
+    height: 104px;
+    
+}
+
+.list{
+    list-style: none;
+    padding-left: 0%;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    margin-left: 35%;
+    font-size: 16px;    
+    font-weight: 400;
+    letter-spacing: 0.32px;  
+    gap: 15px; 
+}
+
+.list h3{
+    width: 264px;
+    height: auto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5px; /* 120% */
+    letter-spacing: 0.4px;
+}
+/* end of section #1 */
+
+/* Section #2 */
+
+.what-we-are-doing{
+    margin-top: 10%;
+}
+
+.items{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+/* End of section #2 */
+
+/* Section #3 */
+
+.our-team{
+    background-color: var(--CLOUD);
+    margin-top: 10%;
+}
+
+.team-members{
+    display: flex;
+   justify-content: center;
+}
+
+.members{
+    list-style: none;
+}
+ /* End of Section #3 */
+
+
+
+
+/* HERO SECTION  */
+.hero{
+    background-color: var(--NAVYBLUE);
+    padding-top: 188px;
+    padding-bottom: 188px; 
+    text-align: center;
+}
+
+.hero-text{
+    color: var(--white);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+}
+
+
+.hero-btn{
+    background-color: var(--IRISH);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 30px;
+    padding: 16px 32px;
+    letter-spacing: 0.64px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* END OF HERO SECTION  */
+
+/* title section  */
+
+.title-text{
+    text-align: center;
+    color: var(--NAVYBLUE);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 2.5;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    
+}
+
+/* our team section  */
+
+.our-team-list{
+    text-align: center;
+    color: var(--NAVYBLUE);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 2.5;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+/* end of our team section  */
+
+
+/* Footer section  */
+
+.end-page{
+    background-color: var(--NAVYBLUE);
+    padding: 60px;
+    
+}
+
+.last-page{
+    margin-left: 15%;
+}
+
+.footer-text{
+    /* padding-top: 5px; */
+    color:var(--CLOUD);     
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+}
