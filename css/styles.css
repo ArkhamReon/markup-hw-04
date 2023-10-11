@@ -8,16 +8,18 @@
     --OCEAN:  #2B65EC;
 }
 
-.container{
-    width: 1158px;
+.about{
+    width: 1440px;
+    height: 72px;
     display: flex;
+    align-items: center;
     justify-content: space-around;
 }
 
 *{
-      /* margin:0;
+      margin:0;
       padding:0;
-      box-sizing:border-box; */
+      box-sizing:border-box;
       font-family:  "Roboto", sans-serif;
 } 
 
@@ -93,8 +95,11 @@
 /* section #1 */
 .discription-list{
     margin-top: 8%;
-    width: 1128px;
-    height: 104px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     
 }
 
@@ -102,9 +107,10 @@
     list-style: none;
     padding-left: 0%;
     display: flex;
+    align-items: center;
+    /* text-align: center; */
     justify-content: center;
-    justify-content: center;
-    margin-left: 35%;
+    margin-left:5%;
     font-size: 16px;    
     font-weight: 400;
     letter-spacing: 0.32px;  
@@ -113,12 +119,14 @@
 
 .list h3{
     width: 264px;
-    height: auto;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 1.5px; /* 120% */
     letter-spacing: 0.4px;
+    padding-top: 8px;
+}
+
+.list p{
+    padding-top: 10px;
 }
 /* end of section #1 */
 
@@ -154,12 +162,23 @@
 }
  /* End of Section #3 */
 
-
+.about-icons{
+    background: var(--CLOUD);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 264px;
+    height: 112;
+    padding: 24px 0px;
+    
+}
 
 
 /* HERO SECTION  */
 .hero{
     background-color: var(--NAVYBLUE);
+    width: 1440px;
+    height: 600px;
     padding-top: 188px;
     padding-bottom: 188px; 
     text-align: center;
@@ -194,6 +213,7 @@
 
 .title-text{
     text-align: center;
+    justify-content: center;
     color: var(--NAVYBLUE);
     font-size: 36px;
     font-weight: 700;
@@ -205,8 +225,25 @@
 
 /* our team section  */
 
+.our-team{
+    width: 1440px;
+    height: 732px;
+}
+
+.teams{
+    padding-top: 120px;
+}
+
+.mark {
+    border-radius: 0px 0px 4px 4px;
+    background:var(--white);   
+}
+
+
+
 .our-team-list{
     text-align: center;
+    justify-content: center;
     color: var(--NAVYBLUE);
     font-size: 36px;
     font-weight: 700;
