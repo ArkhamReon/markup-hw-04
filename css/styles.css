@@ -413,6 +413,76 @@
 
    /* END OF FOOTER SECTION STYLING */
 
+   /* PORTFOLIO STYLING SECTION  */
+
+   .portfolio-folder{
+      width: 1440px;
+   }
+
+   .portfolio-btn{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 96px;
+      gap: 24px;
+   }
+
+   .website-btn{
+     color: var(--IRISH);
+     font-family: 'Roboto' sans-serif;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 1.5em;
+     letter-spacing: 0.64px;
+     border: 1px solid var(--CLOUD);
+     border-radius: 4px;
+     padding: 12px 24px;
+   }
+
+   .app-btn{
+     color: var(--IRISH);
+     font-family: 'Roboto' sans-serif;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 1.5em;
+     letter-spacing: 0.64px;
+     border: 1px solid var(--CLOUD);
+     border-radius: 4px;
+     padding: 12px 24px;
+   }
+
+   .design-btn{
+     color: var(--IRISH);
+     font-family: 'Roboto' sans-serif;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 1.5em;
+     letter-spacing: 0.64px;
+     border: 1px solid var(--CLOUD);
+     border-radius: 4px;
+     padding: 12px 24px;
+   }
+
+   .marketing-btn{
+     color: var(--IRISH);
+     font-family: 'Roboto' sans-serif;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 1.5em;
+     letter-spacing: 0.64px;
+     border: 1px solid var(--CLOUD);
+     border-radius: 4px;
+     padding: 12px 24px;
+   }
+
+   .all-btn{
+     background-color: var(--OCEAN);
+     color: var(--white);
+     padding: 12px 24px;
+     border-radius: 4px;
+
+   }
+
    
    
 
